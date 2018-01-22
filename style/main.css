@@ -1,0 +1,131 @@
+*{
+	margin:0px;
+}
+h1{
+	font:bold 20px Tahoma;
+}
+h2{
+	font:bold 14px Tahoma;
+}
+header, section, footer, aside, nav, article{
+	display:block;
+}
+body{
+	text-align:center;
+	background: gray;
+    background-repeat: no-repeat;
+}
+#big_wrapper{
+	
+	width:1000px;
+	margin:10px auto;
+	text-align:left;
+	background:#A5ACB0;
+	border-radius:10px;
+	-webkit-box-shadow:rgba(110,110,110,10) -8px 8px 8px;
+}
+#top_header h1{
+    font: 100px Tahoma;    
+}
+
+#top_header{
+    background:#7297A3;
+    text-align:center;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+#top_menu{
+	background:#224254;
+	color:white;
+}
+#top_menu li{
+	display:inline-block;
+	list-style:none;
+	padding:5px;
+	font: 20px Tahoma; 
+	margin-left:100px;
+}
+#main_section{
+	float:left;
+	width:660px;
+	height:500px;
+	margin:30px;/*720px, 280px left*/
+	
+}
+#side_news{
+	float:left;
+	width:200px;
+	height:450px;
+	margin:30px 10px 10px 10px;/*only top and right*/
+	padding:30px;/*30px left,30px right 30px bottom , 30px left*/
+	background:#66CCCC ;
+}
+#the_footer{
+	clear:both;
+	text-align:center;
+	padding: 20px;
+	background:#7297A3;;
+	color:white;
+}
+article{
+	background:#4A6950;
+	padding:20px;
+	margin-bottom:15px;
+	height:400px;
+	border-radius:20px;
+	
+}
+.beats_header{
+	width:500px;
+	background:white;
+	vertical-align:center;
+	text-align:center;
+	border-radius:5px;
+}
+#beats{
+	
+	float:left;
+	width:500px;
+	margin:10px;
+	background:grey;
+	border-radius:5px;
+	padding:0px;
+}
+#list_songs{
+	padding:10px;
+}
+ul{
+	list-style:none;
+}
+a:link{
+	color:white;
+	text-decoration:none;
+}
+a:visited{
+	color:white;
+	text-decoration:none;
+}
+a:hover{
+	color:gray;
+	text-decoration:none;
+}
+#comments{
+	float:left;
+	margin:10px 10px 10px 30px;
+}
+#comments_form{
+	margin-top:30px;
+	width:200px;
+}
+#comment_button{
+	background:green;
+	width:110px;
+	height:40px;
+	border-radius:2px;
+	margin:10px;
+	font-weight:bold;
+	border:0;
+}
+#error{
+	color:red;
+}
